@@ -1,0 +1,31 @@
+/* styles/ImageSlider.module.css */
+.slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Ocultar imágenes desbordadas */
+}
+
+.slider Img {
+  width: 100%;
+  height: auto; /* Mantener la relación de aspecto */
+  display: block; /* Eliminar espacio extra debajo de la imagen */
+  transition: transform 0.5s ease-in-out; /* Transición suave al cambiar imágenes */
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.slider-arrow {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0 1rem;
+}

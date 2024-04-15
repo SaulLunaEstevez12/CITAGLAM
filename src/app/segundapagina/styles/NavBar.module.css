@@ -1,0 +1,23 @@
+/* styles/NavBar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: transparent; /* o un color de fondo si lo prefieres */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar a {
+  color: white; /* o el color que prefieras */
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}

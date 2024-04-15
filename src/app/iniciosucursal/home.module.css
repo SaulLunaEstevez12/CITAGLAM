@@ -1,0 +1,59 @@
+.bodysu {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide la pantalla en dos columnas */
+    background-color: rgba(188,171,155, 123);
+  }
+
+  .leftsidesu {
+    background-color: #a67c52; /* Color de fondo para el lado izquierdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightsidesu {
+    background-image: url('/fondo.png'); /* Reemplaza con el camino a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .containersu {
+    width: 300px; /* Ajusta según el tamaño deseado */
+  padding: 250px;
+  margin-bottom: 10px; /* Espacio entre botones */
+  background: rgba(255, 255, 255, 0); /* Fondo semi-transparente */
+  border-radius: 10px;
+  margin-left: -50px; /* Mueve el contenedor hacia la izquierda */
+  margin-top: 50px;
+  text-align: center;
+  }
+
+  .usericonsu {
+    font-size: 50px; /* Ajusta este valor según necesites */
+    margin-bottom: 10px;
+  }
+
+  .h1su {
+    margin-bottom: 20px; /* Ajusta el margen según necesites */
+  }
+
+  .buttonsu {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre botones */
+    font-size: 18px;
+    color: #000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .buttonsu:hover {
+    background-color: rgb(208,186,164);
+  }

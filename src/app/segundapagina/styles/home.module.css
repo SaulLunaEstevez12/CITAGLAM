@@ -1,0 +1,24 @@
+/* styles/Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .footer {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Continúa con los estilos que ya tienes */
+.footer {
+  /* Tus estilos existentes */
+  z-index: 10; /* Asegúrate de que el footer esté encima del slider */
+}

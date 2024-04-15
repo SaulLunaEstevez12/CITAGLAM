@@ -1,0 +1,123 @@
+.body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.logincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #333; /* Cambio de color de fondo */
+}
+
+.loginform {
+    width: 90%;
+    max-width: 400px;
+    background: #333; /* Asegurarse de que el fondo sea #333 */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Ajustar el color del texto si es necesario */
+}
+  
+.logocontainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.logo {
+    width: 100px; /* Ajusta esto según el tamaño de tu logo */
+    height: auto;
+}
+  
+.inputgroup {
+    margin-bottom: 15px;
+}
+
+.input {
+    background-color: #916f41;
+    max-width: 350px;
+    
+}
+
+.input::placeholder {
+    color: black;
+    font-weight: bold;
+
+  }
+.inputgroup input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+  
+.btnlogin {
+    width: 150px;
+    padding: 15px;
+    background: #f0ad4e;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100%;
+}
+  
+.btnlink {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+  
+.forgotpassword {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+  
+.btnnext {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #f0ad4e;
+    font-size: 18px;
+    text-decoration: none;
+}
+  
+.loginactions {
+    text-align: center;
+}
+
+.logintext {
+    font-family: Italianno;
+}
+
+.inputgroup {
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: none;
+    border-radius: 15px; /* Hace los bordes redondos */
+    background-color: #916f41; /* Color café para el fondo */
+    color: #fff;
+}
+
+
+
+.btnlogin {
+    margin-top: 50px; /* Aumentar el espacio encima del botón */
+    padding: 15px; /* También puedes aumentar el padding para hacer el botón más grande */
+    /* Resto de las propiedades */
+}
+
+.btnlink, .forgotpassword, .btnnext, .loginactions {
+    margin-top: 20px; /* Aumentar el espacio entre enlaces y otros elementos de texto */
+    /* Resto de las propiedades */
+}
+
